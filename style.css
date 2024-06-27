@@ -1,0 +1,623 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    background-color: #444;
+    position: fixed;
+    z-index: 1000;
+    height: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+.nav1 {
+    color: #ffffff;
+    height: 28px;
+    width: 30px;
+    margin: 1px 10px 10px 10px;
+    padding: 14px;
+    display: block;
+    font-size: 28px;
+    transition: all ease;
+
+    
+}
+.nav1:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+    background-color: #ffffff6c;
+}
+.nav2 {
+    color: #ffffff;
+    margin: 10px 1px 10px 10px;
+    display: block;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.nav3 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 20px 25px 20px 20px;
+    margin: 1px 0px 0px 0px;
+    text-align: center;
+    transition: all ease 0.2s;
+    font-family: "Noto Kufi Arabic", Helvetica, Arial, sans-serif;
+}
+.nav3:hover {
+    opacity: 0.7;
+    background-color: #ffffff6c;
+}
+.nav4 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 20px 25px 20px 20px;
+    margin: 1px 0px 0px 0px;
+    text-align: center;
+    transition: all ease 0.2s;
+}
+.nav4:hover {
+    opacity: 0.7;
+    background-color: #ffffff6c;
+}
+.nav4a {
+    margin: 2px 0px 0px 7px;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+}
+.nav5 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 20px 25px 20px 20px;
+    margin: 1px 0px 0px 0px;
+    position: absolute;
+    left: 245px;
+}
+.nav5:hover {
+    opacity: 0.7;
+    background-color: #ffffff6c;
+}
+.nav6 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 20px 25px 20px 20px;
+    margin: 1px 0px 0px 0px;
+    position: absolute;
+    left: 180px;
+}
+.nav6:hover {
+    opacity: 0.7;
+    background-color: #ffffff6c;
+}
+.nav7 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 20px 25px 20px 20px;
+    margin: 1px 0px 0px 0px;
+    position: absolute;
+    left: 115px;
+}
+.nav7:hover {
+    opacity: 0.7;
+    background-color: #ffffff6c;
+}
+.nav8 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 20px 25px 20px 20px;
+    margin: 1px 0px 0px 0px;
+    position: absolute;
+    left: 50px;
+}
+.nav8:hover {
+    opacity: 0.7;
+    background-color: #ffffff6c;
+}
+/* انتهاء الهدر هنا */
+.stopa {
+    background-image: url(/2.jpg);
+    color: #222222;
+    background-size: cover;
+    background-position: 48%;
+    background-repeat: no-repeat;
+    width: auto;
+    height:550px;
+    position: relative;
+    padding: 66px 0px 0px 0px; 
+    flex-wrap: wrap;
+}
+.stopa1 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 190px;
+    left: 480px;
+    flex-wrap: wrap;
+}
+.stopa2 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    top: 270px;
+    left: 550px;
+    color: #818181;
+    flex-wrap: wrap;
+}
+.stopa3 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-weight: 600;
+    position: absolute;
+    top: 330px;
+    left: 300px;
+    color: #000000;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.inp1 {
+    width: 730px;
+    height: 70px;
+    font-size: 20px;
+    z-index: -1;
+    border: none;
+    padding:  0px 10px 0px 0px;
+    flex-direction: row;
+    direction: rtl;
+    transition: all ease 0.5s;
+    box-shadow: 1px 1px 2px  #c2c2c2;
+}
+.inp1:hover {
+    border: 1PX rgb(2, 199, 2) solid;
+}
+.inp2 {
+   background-color: rgb(2, 199, 2);
+   border: none;
+   height: 50px;
+   width: 65px;
+   margin: 10px;
+   font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+   font-size: 20px;
+   color: white;
+   position: absolute;
+   transition: all ease 0.5s;
+}
+.inp2:hover {
+    background-color: rgb(0, 138, 0);
+}
+.stopa4 {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 22px;
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+    top:410px;
+    left: 580px;
+    flex-wrap: wrap;
+}
+.inp3 {
+    width: 80px;
+    height: 35px;
+    border: none ;
+    background-color: whitesmoke;
+    margin:  0px 10px 0px 0px;
+    box-shadow: 1px 1px 2px  #c2c2c2;
+    flex-wrap: wrap;
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+.inp3:hover {
+    background-color: rgb(2, 199, 2); 
+    color: white;
+}  
+.inp4 {
+    padding: 5px 0px 0px 0px;
+    flex-wrap: wrap;
+}
+/* انتهاء الصفحة الريسية */
+
+.inp5 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 35px;
+    padding: 100px 0px 60px 460px;
+}
+.ig {
+    flex-wrap: wrap;
+}
+.igp1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+}
+.pra1 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 70px;left: 70px;
+}
+.ig1 {
+    background-image: url(/3.jpg);
+    width: 315px;
+    height: 185px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    filter: brightness(65%);
+}
+.pra2 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 70px;left: 80px;
+}
+.ig2 {
+    background-image: url(/4.jpg);
+    width: 315px;
+    height: 185px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    filter: brightness(65%);
+}
+.ig3 {
+    background-image: url(/5.jpg);
+    width: 315px;
+    height: 185px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    filter: brightness(65%);
+}
+.pra3 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 70px;left: 80px;
+}
+.ig4 {
+    background-image: url(/6.jpg);
+    width: 315px;
+    height: 185px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    filter: brightness(65%);  
+}
+.pra4 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 70px;left: 110px;
+}
+.ig5 {
+    background-image: url(/7.jpg);
+    width: 315px;
+    height: 185px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    filter: brightness(65%);
+}
+.pra5 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 70px;left: 100px;
+}
+.ig6 {
+    background-image: url(/8.jpg);
+    width: 315px;
+    height: 185px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    filter: brightness(65%); 
+}
+.pra6 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 70px;left: 120px;
+}
+.ig7 {
+    background-image: url(/9.jpg);
+    width: 315px;
+    height: 185px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    filter: brightness(65%); 
+}
+.pra7 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 70px;left: 80px;
+}
+.ig8 {
+    background-image: url(/10.jpg);
+    width: 315px;
+    height: 185px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    filter: brightness(65%); 
+}
+.pra8 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 70px;left: 80px;
+}
+.ig9 {
+    background-image: url(/11.jpg);
+    width: 315px;
+    height: 185px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    filter: brightness(65%);
+}
+.pra9 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 70px;left: 70px;
+}
+.ig10 {
+    background-image: url(/12.jpg);
+    width: 315px;
+    height: 185px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    filter: brightness(65%); 
+}
+.pra10 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 70px;left: 80px;
+}
+.ig11 {
+    background-image: url(/13.jpg);
+    width: 315px;
+    height: 185px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    filter: brightness(65%);
+}
+.pra11 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 70px;left: 110px;
+}
+.ig12 {
+    background-image: url(/14.jpg);
+    width: 315px;
+    height: 185px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    filter: brightness(65%); 
+}
+.pra12 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 70px;left: 80px;
+}
+.ig {
+    margin: 0px 0px 90px 0px;
+}
+/* نهاية الصور */
+
+.cat {
+    background-color: rgb(241, 241, 241);
+    width: auto;
+    height: 480px;
+    position: relative;
+    flex-wrap: wrap;
+}
+.catp1 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 36px;
+    text-align: center;
+    padding: 100px 0px 35px 0px; 
+}
+.catgi {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 0px 20px 0px;
+
+}
+.catig1 {
+    display: flex;
+    direction: rtl;
+    width: 310px;
+    height: 80px;
+    background-color: white;
+    margin: 18px 0px 0px 0px;
+    
+}
+.caig1 {
+    width: 40px;
+    height: 40px;
+    padding: 18px;
+    margin: 0px 0px 20px 0px;
+}
+.catp2 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 20px;
+    text-align: center;
+    padding: 26px 0px 0px 0px; 
+    margin: 0px 0px 20px 0px;
+}
+.catp3 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 20px;
+    text-align: right;
+    padding: 12px 0px 0px 0px; 
+    width: 180px;
+    margin: 0px 0px 20px 0px;
+}
+/* انتهاء الكاتيجوري */
+
+.op {
+    background-color: rgb(241, 241, 241);
+    width: auto;
+    height: 200px;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 0px 0px 30px 0px;
+}
+.opp1 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 36px;
+    text-align: center;
+    padding: 0px 0px 15px 0px;      flex-wrap: wrap;
+}
+.oppall {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 35px;
+    flex-wrap: wrap;
+}
+.oppa1 {
+    height: 12px;
+    width: 150px;
+    background-color: white;
+    direction: rtl;
+    text-align: right;
+    padding: 10px 15px 20px 0px;
+    margin: 0px 0px 20px 0px;
+    box-shadow: 1px 1px 1px  #818181 ; 
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+/* ؟نهاية الحلول */
+.footer {
+    background-color: white;
+    width: auto;
+    height: 280px;
+    padding: 60px 0px 0px 0px;
+    display: flex;
+    direction: rtl;
+}
+.footp1 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    text-align: right;
+    direction: rtl;
+    padding: 0px 15px 0px 0px;
+}
+.footp1all {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    text-align: right;
+    direction: rtl;
+    padding: 0px 0px 0px 0px;
+    font-size: 17px;
+    height: 20px;
+}
+.footp12 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    text-align: right;
+    direction: rtl;
+    padding: 15px 15px 0px 0px;
+    font-size: 17px;
+    height: 20px;
+}
+.footp2 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    text-align: right;
+    direction: rtl;
+    padding: 0px 140px 0px 0px;
+}
+.footp1all2 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    text-align: right;
+    direction: rtl;
+    padding: 0px 120px 0px 0px;
+    font-size: 17px;
+    height: 20px;
+}
+.footp13 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    text-align: right;
+    direction: rtl;
+    padding: 15px 15px 0px 0px;
+    font-size: 17px;
+    height: 20px;
+}
+.footp3 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    text-align: right;
+    direction: rtl;
+    padding: 0px 90px 0px 0px;
+}
+.footp1all3 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    text-align: right;
+    direction: rtl;
+    padding: 0px 70px 0px 0px;
+    font-size: 17px;
+    height: 20px;
+}
+.footp4 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    text-align: right;
+    direction: rtl;
+    padding: 0px 170px 0px 0px;
+}
+.footp41 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    text-align: right;
+    direction: rtl;
+    padding: 15px 170px 0px 0px;
+    font-size: 35px;
+}
+.footp5 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    text-align: right;
+    direction: rtl;
+    padding: 33px 170px 0px 0px;
+}
+.footp51 {
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    text-align: right;
+    direction: rtl;
+    padding: 5px 170px 0px 0px;
+    font-size: 35px;
+}
